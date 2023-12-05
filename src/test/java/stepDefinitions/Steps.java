@@ -25,7 +25,7 @@ public class Steps {
     LoginPage loginPage;
     DasboardPage dasboardPage;
 
-    @Given("^User is on home page$")
+    @Given("User is on home page")
     public void user_is_on_home_page(){
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\kamil\\Desktop\\sda Tester\\java\\Selenium\\Chromedriver\\chromedriver.exe");
